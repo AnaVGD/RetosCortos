@@ -2,7 +2,7 @@
   "name": "retos",
   "version": "1.0.0",
   "description": "",
-  "main": "script.js",
+  "main": "maxima-ganancia/script.js",
   "scripts": {
     "test": "node --test"
   },
