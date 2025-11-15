@@ -38,4 +38,8 @@ describe('maximaGanancia', () => {
   test('Array con gran negativo en medio', () => {
     assert.strictEqual(maximaGanancia([8, 1, -100, 2, 5]), 9);
   });
+
+  test('Ejemplo del reto: huerto maldito', () => {
+    assert.strictEqual(maximaGanancia([2, -5, 8, -2, 4, -10, 3, 1]), 10);
+  });
 });
