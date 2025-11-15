@@ -2,9 +2,10 @@
   "name": "retos",
   "version": "1.0.0",
   "description": "",
-  "main": "maxima-ganancia/script.js",
+  "main": "script.js",
   "scripts": {
-    "test": "node --test"
+    "test": "node --test",
+    "bench": "node maxima-ganancia/maximaGanancia-benchmark.js"
   },
   "keywords": [],
   "author": "",

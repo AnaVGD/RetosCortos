@@ -2,22 +2,21 @@
 
 Este proyecto implementa el algoritmo de Kadane para encontrar la suma máxima de un subarray contiguo.
 
-Los archivos del proyecto se encuentran en la carpeta `maxima-ganancia/`.
-
 ## Archivos
 
-- `maxima-ganancia/script.js`: Implementación de la función `maximaGanancia`
-- `maxima-ganancia/maximaGanancia.test.js`: Tests unitarios usando el test runner integrado de Node.js
+- `script.js`: Implementación de la función `maximaGanancia`
+- `maximaGanancia.test.js`: Tests unitarios usando el test runner integrado de Node.js
+- `index.html`, `style.css`: Interfaz web (opcional)
 
 ## Cómo ejecutar
 
 ### Ejecutar la función
 
 ```bash
-node maxima-ganancia/script.js
+node script.js
 ```
 
-Nota: La función está exportada, pero no hay ejecución directa. Para probar, importa en otro script o añadir un console.log en `maxima-ganancia/script.js`.
+Nota: La función está exportada, pero no hay ejecución directa. Para probar, importa en otro script o añadir un console.log en `script.js`.
 
 ### Ejecutar tests
 
